@@ -23,8 +23,9 @@ public class TestMain {
 				int value = Integer.parseInt(scan.nextLine());
 				return value;
 		};
-		int eng =test2.methodTest("영어");
-		System.out.printf("영어점수 = %d \n",eng);
+		String subject = "영어";
+		int eng =test2.methodTest(subject);
+		System.out.printf("%s점수 = %d \n",subject, eng);
 		
 		System.out.println("The end");
 	}
