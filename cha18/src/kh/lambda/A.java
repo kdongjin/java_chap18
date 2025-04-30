@@ -5,12 +5,10 @@ public interface A {
 	public abstract void method();
 }
 
-
 interface D{
 	//입력 있고, 리턴 있다.
 	public abstract double methodD(int a, double b );
 }
-
 
 interface B {
 	//입력 있고, 리턴 있다.
