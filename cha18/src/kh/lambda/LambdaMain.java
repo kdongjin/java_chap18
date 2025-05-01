@@ -19,27 +19,8 @@ public class LambdaMain {
 		System.out.printf("d.methodD(10, 20.5) = %.2f \n", value);
 		
 		System.out.println("==============");
-		
-		BObject2 b = (String name)-> {
-				Scanner scan = new Scanner(System.in);
-				System.out.printf("당신의 %s 입력:",name);
-				int value2 = Integer.parseInt(scan.nextLine()); 
-				return value2;
-		};
-		
-		int value3 = b.methodB("국어");
-		System.out.printf("당신의 점수 %d입니다.\n",value3);
-		int value4 = b.methodB("영어");
-		System.out.printf("당신의 점수 %d입니다.\n",value4);
-		System.out.println("==============");
-		
-		
-		
 		System.out.println("The end!");
-		
-
 	}
-
 }
 
 
