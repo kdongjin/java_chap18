@@ -20,7 +20,7 @@ public class LambdaMain {
 		
 		System.out.println("==============");
 		
-		B b = (name)-> {
+		BObject2 b = (String name)-> {
 				Scanner scan = new Scanner(System.in);
 				System.out.printf("당신의 %s 입력:",name);
 				int value2 = Integer.parseInt(scan.nextLine()); 
